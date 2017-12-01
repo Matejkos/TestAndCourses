@@ -33,12 +33,11 @@ namespace MVA_NETCoreCourse
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseDefaultFiles();
-            app.UseStaticFiles();
+            app.UseFileServer(enableDirectoryBrowsing: env.IsDevelopment());
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync($"Hello World! environment : {env.EnvironmentName}");
             });
         }
     }
