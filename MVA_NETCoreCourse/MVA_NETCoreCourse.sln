@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVA_NETCoreCourse", "MVA_NE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalLibrary", "ExternalLibrary\ExternalLibrary.csproj", "{EF67AC47-8EE6-44AB-B30B-A0B27956C5E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVA_NETCoreMVC", "MVA_NETCoreMVC\MVA_NETCoreMVC.csproj", "{BE65C71F-4762-4C62-80F2-147E9BEE8DE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EF67AC47-8EE6-44AB-B30B-A0B27956C5E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF67AC47-8EE6-44AB-B30B-A0B27956C5E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF67AC47-8EE6-44AB-B30B-A0B27956C5E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE65C71F-4762-4C62-80F2-147E9BEE8DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE65C71F-4762-4C62-80F2-147E9BEE8DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE65C71F-4762-4C62-80F2-147E9BEE8DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE65C71F-4762-4C62-80F2-147E9BEE8DE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
