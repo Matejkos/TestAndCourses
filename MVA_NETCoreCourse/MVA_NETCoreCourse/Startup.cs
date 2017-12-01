@@ -37,7 +37,8 @@ namespace MVA_NETCoreCourse
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync($"Hello World! environment : {env.EnvironmentName}");
+                await context.Response.WriteAsync($"Hello World! environment : {env.EnvironmentName}, " +
+                    $"{ExternalLibrary.Greetings.Greeting()}");
             });
         }
     }
